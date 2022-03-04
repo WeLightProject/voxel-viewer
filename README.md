@@ -11,3 +11,11 @@ which are exported by [Magicka Voxel](https://ephtracy.github.io/) as source ins
 ## 👀 Demo
 
 You can see a live demo [here](https://florianfe.github.io/vox-viewer/demo/)
+
+## Quick Install
+
+```
+$ npm install
+$ cd demo # or cd demo_on_chain
+$ npx webpack --config webpack.config.js
+```
