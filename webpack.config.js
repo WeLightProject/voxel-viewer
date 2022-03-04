@@ -7,8 +7,8 @@ module.exports =
     entry: './demo.js',
     output: 
     {
-        filename: 'demo.js',
-        path: path.join(__dirname, '/dist'),
+        filename: 'handler.js',
+        path: path.join(__dirname, './'),
     },
     resolve: 
     {

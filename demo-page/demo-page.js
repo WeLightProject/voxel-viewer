@@ -19,7 +19,7 @@ class DemoPage extends LitElement
     constructor()
     {
         super()
-        this.selectedModel = 'deer'
+        this.selectedModel = 'model'
     }
 
     onModelSelected(e)
@@ -51,18 +51,10 @@ class DemoPage extends LitElement
 
             </style>
 
-            Model: <br>
-            
-            <select id="model-selection" value="${this.selectedModel}" @change="${this.onModelSelected}">
-                <option value="deer">Deer</option>
-                <option value="monu7">Monument 7</option>
-                <option value="monu8">Monument 8</option>
-            </select>
-
             <div class="container">
 
                 <vox-viewer 
-                    src="./models/${this.selectedModel}.vox" 
+                    src="https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6aozkfzzzwrmgi.arweave.net/nFF3J4VB0BP9eHt35gdffGuwCXaHfXwtJl2K6u4GyA0" 
                     camera-controls
                     auto-rotate
                     shadow-intensity="0.3"
